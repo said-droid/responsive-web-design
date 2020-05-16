@@ -1,16 +1,61 @@
-@media only screen and (max-width: 300px)
+@media only screen and (max-width: 300px) {
 
-    body {  background-color: red;
+    body {
+        background-color: red;
     }
 
-@media only screen and (min-width: 301px) and (max-width: 768px)
+    #small {
+            font-size: 15px;
+    }
+}
 
-    body { background-color: green;
+@media only screen and (min-width: 301px) and (max-width: 768px) {
+
+    body {
+        background-color: green;
     }
 
-@media only screen and (min-width: 768px)
-
-    body { background-color: blue;
+    #small {
+        width: 66%;
+        float: left;
+        font-size: 17px;
     }
+
+    #medium {
+        width: 33%;
+        float: left;
+        font-size: 17px;
+    }
+
+    #large {
+        width: 100%;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        background-color: blue;
+    }
+
+    #small {
+        width: 33%;
+        float: left;
+        font-size: 22px;
+    }
+
+    #medium {
+        width: 33%;
+        float: left;
+        font-size: 22px;
+    }
+
+    #large {
+        width: 33%;
+        float: left;
+        font-size: 22px;
+    }
+}
 
 
